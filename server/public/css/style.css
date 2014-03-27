@@ -6,16 +6,18 @@ body {
   color: #3a3a3b;
 }
 h1 {
-  height: 0;
-  padding: 60px 0 0 0;
+  height: 140px;
+  /*padding: 60px 0 0 0;*/
   overflow: hidden;
   background: url(../img/logo.png) no-repeat;
-  margin: 10px 0;
+  background-size: auto 140px;
+  /*margin: 10px 0;*/
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   h1 {
+    height: 140px;
     background-image: url(../img/logo@2x.png);
-    background-size: auto 60px;
+    background-size: auto 140px;
   }
 }
 /* Bootstrap overrides */
